@@ -23,7 +23,7 @@ ydl_opts = {
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
-        'preferredquality': '192',
+        'preferredquality': '320',
     }],
     'logger': MyLogger(),
     'progress_hooks': [my_hook],
